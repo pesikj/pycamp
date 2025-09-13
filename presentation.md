@@ -55,12 +55,7 @@ ArubaOS (MODEL: Aruba9004), Version 8.7.0.0-2.3.0.4 (82267)
 # Python code
 
 - `parsing.py` - simple parsing using Python `re` module
-- `send_snmp_request.py` - sends an SNMP request to a removed device and prints output
-
-```
-pip install pysnmp
-```
-
+- `send_snmp_request.py` - sends an SNMP request to a removed device and prints output (requires `pysnmp` package)
 - You can also use `snmpget` command
 
 ```
