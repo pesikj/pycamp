@@ -50,11 +50,7 @@
 <h1 id="python-code">Python code</h1>
 <ul>
 <li><code>parsing.py</code> - simple parsing using Python <code>re</code> module</li>
-<li><code>send_snmp_request.py</code> - sends an SNMP request to a removed device and prints output</li>
-</ul>
-<pre is="marp-pre" data-auto-scaling="downscale-only"><code>pip install pysnmp
-</code></pre>
-<ul>
+<li><code>send_snmp_request.py</code> - sends an SNMP request to a removed device and prints output (requires <code>pysnmp</code> package)</li>
 <li>You can also use <code>snmpget</code> command</li>
 </ul>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code>snmpget -v2c -c public HOST 1.3.6.1.2.1.1.1.0
